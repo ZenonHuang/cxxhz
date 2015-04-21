@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+  android:background="#FF6666">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="20dip"
+        android:layout_centerVertical="true"
+        android:text="Blog"
+        android:background="#99cc33" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:layout_marginTop="80dip"
+        android:layout_above="@id/button_1"
+        android:text="给TA打电话"
+        android:background="#99cc33" />
+    
+        
+<Button android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99cc33"
+        android:layout_margin="20dip"
+        android:layout_below="@id/button_1"
+        android:text="chat with our son "
+        />
+</RelativeLayout>
+   
+
+</LinearLayout>
