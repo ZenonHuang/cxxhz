@@ -35,7 +35,7 @@ public class ThirdActivity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Intent intent=new Intent(Intent.ACTION_DIAL);
-				intent.setData(Uri.parse("tel:18673556610"));
+				intent.setData(Uri.parse("tel:122478323"));
 				startActivity(intent);
 			}
 		});
